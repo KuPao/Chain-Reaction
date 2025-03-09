@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1278847121
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1278847122}
+  m_Layer: 0
+  m_Name: RopePart
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1278847122
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1278847121}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1061759388050925539}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1061759388050925537
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1061759388050925539}
+  - component: {fileID: -1391113098963236065}
+  m_Layer: 0
+  m_Name: Rope
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1061759388050925539
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061759388050925537}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.698, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1278847122}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-1391113098963236065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061759388050925537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c127da51781cf41aee9e7e0ac85e30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: 
+  targetSymbol: 0
+  hitTarget: 0
+  width: 0
+  partPrefab: {fileID: 4374546065573185261, guid: 40ee410faa2978742b0ff7eb8434fc91,
+    type: 3}
+  boardPrefab: {fileID: 1145607794190386534, guid: e42bde7000f1ce040be6bc470f920646,
+    type: 3}
+  cupPrefab: {fileID: 1401102945255575646, guid: 27a8a1fa2a818744ea32a0b274064596,
+    type: 3}
+  platformPrefab: {fileID: 3643718538416592894, guid: bd9f5e0b2ec33014ab1e359678024f26,
+    type: 3}
+  connectPrefab: {fileID: 4715396711813457096, guid: 3f3410c7f654024488b23df3b77fb246,
+    type: 3}
+  leftEnd: {fileID: 0}
+  leftJoint: {fileID: 0}
+  rightJoint: {fileID: 0}
+  rightEnd: {fileID: 0}
+  parentObject: {fileID: 1278847122}
+  board: {fileID: 0}
+  cup: {fileID: 0}
+  cupInit: {x: 0, y: 0, z: 0}
+  boardInit: {x: 0, y: 0, z: 0}
+  leftRigid: {fileID: 0}
+  rightRigid: {fileID: 0}
+  totalLength: 0
+  wireWidth: 3
+  boardDepth: 2
+  cupDepth: 2
+  partDistance: 0.21
+  guideByLeft: 0
+  animation: 0
+  time: 0
