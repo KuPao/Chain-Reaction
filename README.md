@@ -4,7 +4,7 @@ Development Environment: Unity3D, C#
 
 Development Duration: About six months
 
-Key Technologies:
+## Key Technologies:
 
 Used L-system as a grammar rule to describe dynamic scenes, generating near-infinite sequences to explore the vast dynamic scene space.
 
